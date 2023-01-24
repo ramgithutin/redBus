@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+.dFLex{
+    display: flex;
+}
+.flex{
+    flex:1;
+}
+.hide{
+    display: none;   
+}
+.alignCenter{
+    align-items: center;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.justifyFlexEnd{
+    justify-content: flex-end;
+}
+.justfyBetween{
+    justify-content: space-between;
+}
+/* background color */
+.redBackground{
+    background-color: #d84f57;
+}
+/* font sizes */
+.medium{
+    font-size: 13px;
+    line-height: 0;
+    letter-spacing: .2px;
+}
+/* font weight */
+.weight700{
+    font-weight: 700;
+}
+/* color */
+.white{
+    color: #ffffff;
+}
+
+/* main part */
+.headerRow{
+    padding-top: 6px;
+    width: 100%;
+}
+.header{
+    padding: 0px 20px;
+    margin: 0px 33px;
+}
+.fixed{
+    position: fixed;
+    z-index: 2;
+}
+#redbus-log{
+    width: 79px;
+    height: 49px;
+}
+.paddingHeader{
+    padding: 3px 4px 0px 3px;
+}
+.border{
+    border-bottom: 3px solid #fff!important;
+}
+.headermiddle{
+    padding: 0 10px 0px 10px;
+}
+.selectedBus{
+    padding-top: 28px;
+    padding-bottom: 20px;
+    margin-bottom: 2px;
+}
