@@ -27,11 +27,32 @@
 .justfyBetween{
     justify-content: space-between;
 }
+.outlineNone{
+    outline: none;
+}
+.borderNone{
+    border: none;
+}
+.positionRelative{
+    position: relative;
+}
+.cursor{
+    cursor:pointer;
+}
 /* background color */
 .redBackground{
     background-color: #d84f57;
 }
+.whiteBackground{
+    background-color: #ffffff;
+}
 /* font sizes */
+.vsmall{
+    font-size: 9.75px;
+}
+.small{
+    font-size: 12px;
+}
 .medium{
     font-size: 13px;
     line-height: 0;
@@ -45,26 +66,25 @@
 .white{
     color: #ffffff;
 }
+.creamColor{
+    color: #f9e7ea;
+}
 
 /* main part */
 .headerRow{
-    padding-top: 6px;
     width: 100%;
 }
 .header{
+    height: 60px;
     padding: 0px 20px;
-    margin: 0px 33px;
+    margin: 0px 25px 0px 33px;
 }
 .fixed{
     position: fixed;
     z-index: 2;
 }
-#redbus-log{
-    width: 79px;
-    height: 49px;
-}
 .paddingHeader{
-    padding: 3px 4px 0px 3px;
+    padding: 27px 3px 0px 4px;
 }
 .border{
     border-bottom: 3px solid #fff!important;
@@ -73,7 +93,50 @@
     padding: 0 10px 0px 10px;
 }
 .selectedBus{
-    padding-top: 28px;
-    padding-bottom: 20px;
-    margin-bottom: 2px;
+    padding: 0px 4px 26px 4px;
+    margin: 27px 14px 0px  5px;
+}
+.newPadding{
+    padding: 18px 19px 0px 0px;
+}
+.arrow{
+    width: 13px;
+}
+.profile{
+    width: 36px;
+}
+.paddingarrow{
+    padding: 0px 0px 0px 7px;
+}
+.Manage{
+    padding: 1px 0px 0px 22px;
+}
+.mainBody{
+    background-image: url("../assets/Hero01.png");
+    height: 450px;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: round;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.searchSection{
+    display: inline-block;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 18%);
+    z-index: 5;
+    
+}
+.textDiv{
+    border: 1px solid #d2d2d2;
+    width: 225px;
+}
+.cityIcon{
+    width: 30px;
+}
+.calender{
+    width: 30px;
+}
+.mainSearchBar{
+    margin: 26px 0px 0px 11px;
 }
