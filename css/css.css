@@ -36,6 +36,9 @@
 .positionRelative{
     position: relative;
 }
+.positionAbsolute{
+    position: absolute;
+}
 .cursor{
     cursor:pointer;
 }
@@ -45,6 +48,9 @@
 }
 .whiteBackground{
     background-color: #ffffff;
+}
+.grayBackground{
+    background-color: #f7f7f7;
 }
 /* font sizes */
 .vsmall{
@@ -58,9 +64,18 @@
     line-height: 0;
     letter-spacing: .2px;
 }
+.large{
+    font-size: 19px;
+}
 /* font weight */
 .weight700{
     font-weight: 700;
+}
+.weight600{
+    font-weight: 600;
+}
+.weight900{
+    font-weight: 900;
 }
 /* color */
 .white{
@@ -81,7 +96,7 @@
 }
 .fixed{
     position: fixed;
-    z-index: 2;
+    z-index: 9;
 }
 .paddingHeader{
     padding: 27px 3px 0px 4px;
@@ -129,14 +144,48 @@
 }
 .textDiv{
     border: 1px solid #d2d2d2;
-    width: 225px;
+    width: 225px; 
+    padding: 7px 0px;
+    margin-top: 1px;
 }
 .cityIcon{
-    width: 30px;
+    width: 24px;
+    margin: 0px 0px 0px 5px;
 }
 .calender{
     width: 30px;
 }
 .mainSearchBar{
-    margin: 26px 0px 0px 11px;
+    margin: 26px 0px 0px 0px;
+}
+#search{
+    width: 144px;
+}
+#dateDiv{
+    width: 169px;
+}
+#dateInput{
+    display: contents;
+}
+#from, 
+#to ,
+#date{
+    left: 34;
+}
+.shitfImage{
+    left: 207px;
+    z-index: 4;
+}
+.inputPadding{
+    padding: 13.3px 0px 0px 6px;
+}
+.toInput{
+    padding-left: 9px;
+}
+.rest1{
+    padding: 10px 0px;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 28%);
+}
+.widthRest1{
+    width: 643px;
 }
