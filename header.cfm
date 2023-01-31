@@ -82,29 +82,86 @@
 					</div>
 				</div>
 			</div>
-            <div class="section1 whiteBackground">
-            <div class="dFlex section1Part1">
-                <div class="paddingSection">
-                    <div class="text3 extraLarge weight600">Convenience On-the-go.</div>
-                    <div>Enjoy the following exclusive features on the redBus</div>
-                    <div>app</div>
-                    <div>Last Minute Booking - In a hurry to book a bus at the</div>
-                    <div>last minute? Choose the bus passing from your nearest</div>
-                    <div>boarding point and book in a few easy steps.</div>
-                    <div>Boarding Point Navigation - Never lose your way while</div>
-                    <div>travelling to your boarding point!</div>
-                    <div>Comprehensive Ticket Details- Everything that you</div>
-                    <div> need to make the travel hassle free - rest stop details,</div>
-                    <div>boarding point images, chat with co-passengers,</div>
-                    <div> wake-up alarm and much more!</div>
-                    <div>Enter your mobile number below to</div>
-                    <div>download the redBus mobile app.</div>
-                </div>
-                <div class="androidImg">
-                    <img src="assets/IOS_Android_device.png" class="androidImg">
-                </div>
-            </div>
-            </div>
-        <div>
+			<div class="section1 whiteBackground ">
+				<div class="dFlex section1Part1 positionRelative">
+					<div class="paddingSection zIndex3">
+						<div class="text3 extraLarge weight600">Convenience On-the-go.</div>
+						<div>Enjoy the following exclusive features on the redBus</div>
+						<div>app</div>
+						<div class="topMargin13">Last Minute Booking - In a hurry to book a bus at the</div>
+						<div>last minute? Choose the bus passing from your nearest</div>
+						<div class="topMargin13">boarding point and book in a few easy steps.</div>
+						<div>Boarding Point Navigation - Never lose your way while</div>
+						<div>travelling to your boarding point!</div>
+						<div class="topMargin13">Comprehensive Ticket Details- Everything that you</div>
+						<div> need to make the travel hassle free - rest stop details,</div>
+						<div>boarding point images, chat with co-passengers,</div>
+						<div> wake-up alarm and much more!</div>
+						<div class="topMargin13">Enter your mobile number below to</div>
+						<div>download the redBus mobile app.</div>
+						<div class="dFlex topMargin13">
+							<select class="IP" name="upphoneCode">
+								<option value="91">91</option>
+								<option value="93">93</option>
+								<option value="355">355</option>
+								<option value="213">213</option>
+								<option value="1684">1684</option>
+								<option value="376">376</option>
+								<option value="244">244</option>
+								<option value="1264">1264</option>
+								<option value="672">672</option>
+								<option value="1268">1268</option>
+								<option value="54">54</option>
+								<option value="374">374</option>
+								<option value="297">297</option>
+								<option value="61">61</option>
+								<option value="43">43</option>
+								<option value="994">994</option>
+								<option value="1242">1242</option>
+								<option value="973">973</option>
+								<option value="880">880</option>
+								<option value="1246">1246</option>
+								<option value="375">375</option>
+								<option value="32">32</option>
+								<option value="501">501</option>
+								<option value="229">229</option>
+								<option value="1441">1441</option>
+								<option value="975">975</option>
+								<option value="591">591</option>
+								<option value="599">599</option>
+								<option value="387">387</option>
+								<option value="267">267</option>
+								<option value="47">47</option>
+								<option value="55">55</option>
+								<option value="357">357</option>
+								<option value="420">420</option>
+								<option value="225">225</option>
+								<option value="45">45</option>
+								<option value="253">253</option>
+								<option value="1767">1767</option>
+								<option value="1809">1809</option>
+								<option value="1829">1829</option>
+								<option value="1849">1849</option>
+								<option value="593">593</option>
+								<option value="20">20</option>
+								<option value="503">503</option>
+							</select>
+                            <input type="text" id="smsTXTBOX" placeholder="Enter your mobile number" class="LB" data-validate="required|phone" maxlength="10" data-message="Enter the mobile number|Invalid Mobile No">
+						</div>
+                        <input name="" id="sendLinkButton" type="button" class="borderNone redBackground white topMargin13" value="SMS me the link">
+						<div class="dFlex topMargin10">
+							<div class="applestoreImg"></div>
+							<div class="playstoreImg"></div>
+						</div>
+					</div>
+					<div class="androidImg zIndex3">
+						<img src="assets/IOS_Android_device.png" class="androidImg">
+					</div>
+					<div class="positionAbsolute zIndex2 cityScapeDiv">
+						<img src="assets/city_scape_app_download.png" class="backgroundCityScape">
+					</div>
+				</div>
+			</div>
+			<div>
 	</body>
 </html>

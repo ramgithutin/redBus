@@ -40,6 +40,12 @@
 .positionAbsolute{
     position: absolute;
 }
+.zIndex2{
+    z-index: 2;
+}
+.zIndex3{
+    z-index: 3;
+}
 .cursor{
     cursor:pointer;
 }
@@ -224,19 +230,59 @@
     margin-top: 80px;
 }
 .paddingSection{
-    padding: 85px 188px;
+    padding: 85px 183px;
 }
 .text3{
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 .androidImg{
     width: 426.22px;
-    margin: 39px 0px 0px 27.8px;
+    margin: 39px 0px 0px 35px;
 }
-.section1Part1{
+/* .section1Part1{
     background-image: url("../assets/city_scape_app_download.png");
     height: 450px;
     background-size: cover;
     overflow: hidden;
     background-repeat: round;
+} */
+.cityScapeDiv{
+    top: 206px;
+}
+.backgroundCityScape{
+    opacity: 0.2;
+    height: 430px;
+}
+.topMargin13{
+    margin-top: 13px;
+}
+#sendLinkButton{
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 6px 16px 7px 16px;
+}
+#smsTXTBOX{
+    width: 206px;
+}
+.IP{
+    padding-top: 1px;
+    padding-right: 21px;
+    margin: 0px 10px 0px 0px;
+}
+.applestoreImg{
+    background-image: url(../assets/appleandplaystore.png);
+    background-position: 0 0;
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+}
+.playstoreImg{
+    background-image: url(../assets/appleandplaystore.png);
+    background-position: 0 -80;
+    width: 40px;
+    height: 40px;
+}
+.topMargin10{
+    margin-top: 10;
 }
