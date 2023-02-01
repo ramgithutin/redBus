@@ -162,6 +162,208 @@
 					</div>
 				</div>
 			</div>
-			<div>
+			<div class="section2">
+				<div class=" dFlex justifyCenter">
+					<img src="assets/promise.png" alt="promise.png">
+				</div>
+				<div class="dFlex justifyCenter extraLarge weight600">WE PROMISE TO DELIVER</div>
+				<div class="dFlex justifyCenter">
+					<div class="whiteBackground">
+						<div class="dFlex justifyCenter">
+							<img src="assets/benefits.png" alt="image">
+						</div>
+						<div class="dFlex justifyCenter">UNMATCHED BENEFITS</div>
+						<div class="dFlex justifyCenter titleBlock">We take care of your travel beyond ticketing by providing you with innovative and unique benefits.</div>
+					</div>
+					<div class="whiteBackground">
+						<div class="dFlex justifyCenter">
+							<img src="assets/customer_care.png" alt="image">
+						</div>
+						<div class="dFlex justifyCenter">SUPERIOR CUSTOMER SERVICE</div>
+						<div class="dFlex justifyCenter titleBlock">We put our experience and relationships to good use and are available to solve your travel issues.</div>
+					</div>
+					<div class="whiteBackground">
+						<div class="dFlex justifyCenter">
+							<img src="assets/lowest_Fare.png" alt="image">
+						</div>
+						<div class="dFlex justifyCenter">LOWEST PRICES</div>
+						<div class="dFlex justifyCenter titleBlock">We always give you the lowest price with the best partner offers.</div>
+					</div>
+				</div>
+				<div class="whiteBackground">
+					<div class="dFlex justifyCenter extraLarge weight600">AWARDS & RECOGNITION</div>
+					<div class="dFlex justifyCenter">
+						<div>
+							<div class="dFlex justifyCenter">
+								<img src="assets/Business_Standard1.png">
+							</div>
+							<div class="dFlex justifyCenter">Most Innovative Company</div>
+						</div>
+						<div>
+							<div class="dFlex justifyCenter">
+								<img src="assets/Brand_Trust_Report.png">
+							</div>
+							<div class="dFlex justifyCenter">Most Trusted Brand</div>
+						</div>
+						<div>
+							<div class="dFlex justifyCenter">
+								<img src="assets/Eye_for_Travel1.png">
+							</div>
+							<div class="dFlex justifyCenter">Mobile Innovation Award</div>
+						</div>
+					</div>
+				</div>
+				<div class="dFlex justifyCenter extraLarge weight600">OUR GLOBAL PRESENCE</div>
+				<div class="dFlex justifyCenter">
+					<div>
+						<div class="dFlex justifyCenter">
+							<img src="assets/colombia.png">
+						</div>
+						<div class="dFlex justifyCenter">COLOMBIA</div>
+						<div class="dFlex justifyCenter">
+							<img src="assets/malaysia.png">
+						</div>
+						<div class="dFlex justifyCenter">MALAYSIA</div>
+					</div>
+					<div>
+						<div class="dFlex justifyCenter">
+							<img src="assets/india.png">
+						</div>
+						<div class="dFlex justifyCenter">INDIA</div>
+						<div class="dFlex justifyCenter">
+							<img src="assets/peru.png">
+						</div>
+						<div class="dFlex justifyCenter">PERU</div>
+					</div>
+					<div>
+						<div class="dFlex justifyCenter">
+							<img src="assets/indonesia.png">
+						</div>
+						<div class="dFlex justifyCenter">INDONESIA</div>
+						<div class="dFlex justifyCenter">
+							<img src="assets/singapore.png">
+						</div>
+						<div class="dFlex justifyCenter">SINGAPORE</div>
+					</div>
+				</div>
+				<div class="whiteBackground">
+					<div class="dFlex justifyCenter extraLarge weight600">THE NUMBERS ARE GROWING!</div>
+					<div class="dFlex justifyCenter">
+						<div>
+							<div class="dFlex justifyCenter">CUSTOMERS</div>
+							<div class="dFlex justifyCenter">36 M</div>
+							<div class="dFlex justifyCenter">redBus is trusted by over 36 million happy customers globally</div>
+						</div>
+						<div>
+							<div class="dFlex justifyCenter">OPERATORS</div>
+							<div class="dFlex justifyCenter">3500</div>
+							<div class="dFlex justifyCenter">network of over 3500 bus operators worldwide</div>
+						</div>
+						<div>
+							<div class="dFlex justifyCenter">BUS TICKETS</div>
+							<div class="dFlex justifyCenter">220+ M </div>
+							<div class="dFlex justifyCenter">Over 220 million trips booked using redBus</div>
+						</div>
+					</div>
+				</div>
+				<div class="section3">
+					<div class="dFlex">
+						<div>
+							<div>Top Bus Routes</div>
+							<div>Hyderabad to Bangalore Bus</div>
+							<div>Bangalore to Chennai Bus</div>
+							<div>Pune to Bangalore Bus</div>
+							<div>Mumbai to Bangalore Bus</div>
+							<div>More ></div>
+						</div>
+						<div>
+							<div>Top Cities</div>
+							<div>Hyderabad Bus Tickets</div>
+							<div>Bangalore Bus Tickets</div>
+							<div>Chennai Bus Tickets</div>
+							<div>Pune Bus Tickets</div>
+							<div>More ></div>
+						</div>
+						<div>
+							<div>Top RTC's</div>
+							<div>APSRTC</div>
+							<div>GSRTC</div>
+							<div>MSRTC</div>
+							<div>TNSTC</div>
+							<div>More ></div>
+						</div>
+						<div>
+							<div>Other</div>
+							<div>TSRTC</div>
+							<div>SBSTC</div>
+							<div>RSRTC</div>
+							<div>KeralaRTC</div>
+							<div>More ></div>
+						</div>
+						<div>
+							<div>Tempo Traveller in Cities</div>
+							<div>Tempo traveller in Bangalore</div>
+							<div>Tempo traveller in Chennai</div>
+							<div>Tempo traveller in Mumbai</div>
+							<div>Tempo traveller in Hyderabad</div>
+							<div>Tempo traveller in Ahmedabad</div>
+						</div>
+					</div>
+				</div>
+				<div>Top Operators</div>
+				<div>
+					<ul >  
+						<li>SRS Travels</li>
+						<li>Kallada Travels</li> 
+						<li>KPN Travels</li>
+						<li>Orange Travels</li>
+						<li>Parveen Travels</li> 
+						<li>Rajdhani Express</li> 
+						<li>VRL Travels</li> 
+						<li>Chartered Speed Bus</li> 
+						<li>Bengal Tiger</li> 
+						<li>SRM Travels</li> 
+						<li>Infant Jesus</li> 
+						<li><Patel Travels</li> 
+						<li>JBT Travels</li> 
+						<li>Shatabdi Travels</li> 
+						<li>Eagle Travels</li> 
+						<li>Kanker Roadways</li> 
+						<li>Komitla</li> 
+						<li>Sri Krishna Travels</li> 
+						<li>Humsafar Travels</li> 
+						<li>Mahasagar Travels</li> 
+						<li>Raj Express</li> 
+						<li>Sharma Travels</li> 
+						<li>Shrinath Travels</li> 
+						<li>Universal Travels</li> 
+						<li>Verma Travels</li> 
+						<li>Gujarat Travels</li> 
+						<li>Madurai Radha Travels</li> 
+						<li>Patel Tours and Travels</li> 
+						<li>Paulo Travels</li> 
+						<li>Royal Travels</li> 
+						<li>Amarnath Travels</li> 
+						<li>Vaibhav Travels</li> 
+						<li>Ganesh Travels</li> 
+						<li>Jabbar Travels</li> 
+						<li>Jain Travels</li> 
+						<li>Manish Travels</li> 
+						<li>Pradhan Travels</li> 
+						<li>YBM Travels</li> 
+						<li>Hebron Transports</li> 
+						<li>Mahalaxmi travels</li> 
+						<li>MR Travels</li> 
+						<li>Vivegam Travels</li> 
+						<li>VST Travels</li> 
+						<li>Jakhar Travels</li> 
+						<li>Kaleswari Travels</li> 
+						<li>Mahendra Travels</li> 
+						<li>Neeta Tours and Travels</li> 
+						<li>Yamani Travels</li> 
+						<li>Arthi Travels</li> 
+					</ul>
+			</div>	
+		</div>
 	</body>
 </html>
