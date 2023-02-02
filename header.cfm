@@ -22,8 +22,9 @@
 					<div class="paddingarrow">
 						<img src="assets/arrow.png" alt="down arrow" class="arrow cursor">
 					</div>
-					<div class="paddingarrow">
+					<div class="paddingarrow popup" onclick="myFunction()">
 						<img src="assets/profile.png" alt="down arrow" class="profile cursor">
+						<span class="popuptext" id="myPopup">A Simple Popup!</span>
 					</div>
 					<div class="paddingarrow">
 						<img src="assets/arrow.png" alt="down arrow" class="arrow cursor">
@@ -192,127 +193,127 @@
 				</div>
 				<div class="whiteBackground borderShadow topMargin38 topPaddding31">
 					<div class="dFlex justifyCenter extraLarge weight600" id="awards">AWARDS & RECOGNITION</div>
-					<div class="dFlex justifyCenter">
+					<div class="dFlex justifyCenter alignCenter">
 						<div class="widthAward">
 							<div class="dFlex justifyCenter">
 								<img src="assets/Business_Standard1.png">
 							</div>
-							<div class="dFlex justifyCenter">Most Innovative Company</div>
+							<div class="dFlex justifyCenter paddingIMgDiv">Most Innovative Company</div>
 						</div>
 						<div class="widthAward">
 							<div class="dFlex justifyCenter">
 								<img src="assets/Brand_Trust_Report.png">
 							</div>
-							<div class="dFlex justifyCenter">Most Trusted Brand</div>
+							<div class="dFlex justifyCenter paddingIMgDiv">Most Trusted Brand</div>
 						</div>
 						<div class="widthAward">
 							<div class="dFlex justifyCenter">
 								<img src="assets/Eye_for_Travel1.png">
 							</div>
-							<div class="dFlex justifyCenter">Mobile Innovation Award</div>
+							<div class="dFlex justifyCenter paddingIMgDiv">Mobile Innovation Award</div>
 						</div>
 					</div>
 				</div>
 				<div class="dFlex justifyCenter extraLarge weight600">OUR GLOBAL PRESENCE</div>
 				<div class="dFlex justifyCenter">
-					<div>
+					<div class="global">
 						<div class="dFlex justifyCenter">
 							<img src="assets/colombia.png">
 						</div>
-						<div class="dFlex justifyCenter">COLOMBIA</div>
+						<div class="dFlex justifyCenter topMargin20 bottonMargin20">COLOMBIA</div>
 						<div class="dFlex justifyCenter">
 							<img src="assets/malaysia.png">
 						</div>
-						<div class="dFlex justifyCenter">MALAYSIA</div>
+						<div class="dFlex justifyCenter topMargin20 bottonMargin20">MALAYSIA</div>
 					</div>
-					<div>
+					<div class="global">
 						<div class="dFlex justifyCenter">
 							<img src="assets/india.png">
 						</div>
-						<div class="dFlex justifyCenter">INDIA</div>
+						<div class="dFlex justifyCenter topMargin20 bottonMargin20">INDIA</div>
 						<div class="dFlex justifyCenter">
 							<img src="assets/peru.png">
 						</div>
-						<div class="dFlex justifyCenter">PERU</div>
+						<div class="dFlex justifyCenter topMargin20 bottonMargin20">PERU</div>
 					</div>
-					<div>
+					<div class="global">
 						<div class="dFlex justifyCenter">
 							<img src="assets/indonesia.png">
 						</div>
-						<div class="dFlex justifyCenter">INDONESIA</div>
+						<div class="dFlex justifyCenter topMargin20 bottonMargin20">INDONESIA</div>
 						<div class="dFlex justifyCenter">
 							<img src="assets/singapore.png">
 						</div>
-						<div class="dFlex justifyCenter">SINGAPORE</div>
+						<div class="dFlex justifyCenter topMargin20 bottonMargin20">SINGAPORE</div>
 					</div>
 				</div>
 				<div class="whiteBackground">
-					<div class="dFlex justifyCenter extraLarge weight600">THE NUMBERS ARE GROWING!</div>
+					<div class="dFlex justifyCenter extraLarge weight600 topPaddding31">THE NUMBERS ARE GROWING!</div>
 					<div class="dFlex justifyCenter">
-						<div>
-							<div class="dFlex justifyCenter">CUSTOMERS</div>
-							<div class="dFlex justifyCenter">36 M</div>
-							<div class="dFlex justifyCenter">redBus is trusted by over 36 million happy customers globally</div>
+						<div class="widthAward textCenter">
+							<div class="dFlex justifyCenter topMargin20 bottonMargin20">CUSTOMERS</div>
+							<div class="dFlex justifyCenter XLlarge topMargin20 bottonMargin20">36 M</div>
+							<div class="dFlex justifyCenter topMargin20 bottonMargin20">redBus is trusted by over 36 million happy customers globally</div>
 						</div>
-						<div>
-							<div class="dFlex justifyCenter">OPERATORS</div>
-							<div class="dFlex justifyCenter">3500</div>
-							<div class="dFlex justifyCenter">network of over 3500 bus operators worldwide</div>
+						<div class="widthAward textCenter">
+							<div class="dFlex justifyCenter topMargin20 bottonMargin20">OPERATORS</div>
+							<div class="dFlex justifyCenter XLlarge topMargin20 bottonMargin20">3500</div>
+							<div class="dFlex justifyCenter topMargin20 bottonMargin20">network of over 3500 bus operators worldwide</div>
 						</div>
-						<div>
-							<div class="dFlex justifyCenter">BUS TICKETS</div>
-							<div class="dFlex justifyCenter">220+ M </div>
-							<div class="dFlex justifyCenter">Over 220 million trips booked using redBus</div>
+						<div class="widthAward textCenter">
+							<div class="dFlex justifyCenter topMargin20 bottonMargin20">BUS TICKETS</div>
+							<div class="dFlex justifyCenter XLlarge topMargin20 bottonMargin20">220+ M </div>
+							<div class="dFlex justifyCenter topMargin20 bottonMargin20">Over 220 million trips booked using redBus</div>
 						</div>
 					</div>
 				</div>
 				<div class="section3">
-					<div class="dFlex">
+					<div class="dFlex justifyBetween topMargin20 bottonMargin20 s4">
 						<div>
-							<div>Top Bus Routes</div>
-							<div>Hyderabad to Bangalore Bus</div>
-							<div>Bangalore to Chennai Bus</div>
-							<div>Pune to Bangalore Bus</div>
-							<div>Mumbai to Bangalore Bus</div>
-							<div>More ></div>
+							<div class="mediumLarge weight800 s3">Top Bus Routes</div>
+							<div class="s3">Hyderabad to Bangalore Bus</div>
+							<div class="s3">Bangalore to Chennai Bus</div>
+							<div class="s3">Pune to Bangalore Bus</div>
+							<div class="s3">Mumbai to Bangalore Bus</div>
+							<div class="s3">More ></div>
 						</div>
 						<div>
-							<div>Top Cities</div>
-							<div>Hyderabad Bus Tickets</div>
-							<div>Bangalore Bus Tickets</div>
-							<div>Chennai Bus Tickets</div>
-							<div>Pune Bus Tickets</div>
-							<div>More ></div>
+							<div class="mediumLarge weight800">Top Cities</div>
+							<div class="s3">Hyderabad Bus Tickets</div>
+							<div class="s3">Bangalore Bus Tickets</div>
+							<div class="s3">Chennai Bus Tickets</div>
+							<div class="s3">Pune Bus Tickets</div>
+							<div class="s3">More ></div>
 						</div>
 						<div>
-							<div>Top RTC's</div>
-							<div>APSRTC</div>
-							<div>GSRTC</div>
-							<div>MSRTC</div>
-							<div>TNSTC</div>
-							<div>More ></div>
+							<div class="mediumLarge weight800">Top RTC's</div>
+							<div class="s3">APSRTC</div>
+							<div class="s3">GSRTC</div>
+							<div class="s3">MSRTC</div>
+							<div class="s3">TNSTC</div>
+							<div class="s3">More ></div>
 						</div>
 						<div>
-							<div>Other</div>
-							<div>TSRTC</div>
-							<div>SBSTC</div>
-							<div>RSRTC</div>
-							<div>KeralaRTC</div>
-							<div>More ></div>
+							<div class="mediumLarge weight800">Other</div>
+							<div class="s3">TSRTC</div>
+							<div class="s3">SBSTC</div>
+							<div class="s3">RSRTC</div>
+							<div class="s3">KeralaRTC</div>
+							<div class="s3">More ></div>
 						</div>
 						<div>
-							<div>Tempo Traveller in Cities</div>
-							<div>Tempo traveller in Bangalore</div>
-							<div>Tempo traveller in Chennai</div>
-							<div>Tempo traveller in Mumbai</div>
-							<div>Tempo traveller in Hyderabad</div>
-							<div>Tempo traveller in Ahmedabad</div>
+							<div class="mediumLarge weight800">Tempo Traveller in Cities</div>
+							<div class="s3">Tempo traveller in Bangalore</div>
+							<div class="s3">Tempo traveller in Chennai</div>
+							<div class="s3">Tempo traveller in Mumbai</div>
+							<div class="s3">Tempo traveller in Hyderabad</div>
+							<div class="s3">Tempo traveller in Ahmedabad</div>
 						</div>
 					</div>
 				</div>
-				<div>Top Operators</div>
+				<div class="mediumLarge weight800 s4">Top Operators</div>
 				<div>
-					<ul >  
+					<ul>  
 						<li>SRS Travels</li>
 						<li>Kallada Travels</li> 
 						<li>KPN Travels</li>
@@ -324,7 +325,7 @@
 						<li>Bengal Tiger</li> 
 						<li>SRM Travels</li> 
 						<li>Infant Jesus</li> 
-						<li><Patel Travels</li> 
+						<li>Patel Travels</li> 
 						<li>JBT Travels</li> 
 						<li>Shatabdi Travels</li> 
 						<li>Eagle Travels</li> 
@@ -364,60 +365,64 @@
 						<li>Arthi Travels</li> 
 					</ul>
 				</div>
-			</div>
+
 			<div class="footer">
-				<div class="dFlex">
-					<div>
-						<div>About redBus</div>
-						<div>About Us</div>
-						<div>Contact Us</div>
-						<div>Mobile Version</div>
-						<div>redBus on Mobile</div>
-						<div>Sitemap</div>
-						<div>Offers</div>
-						<div>Careers</div>
-						<div>Values</div>
+				<div class="dFlex topMargin20 bottonMargin20 s4 topPaddding31">
+					<div class="footerColor widthFooter">
+						<div class="weight700 footerFirstText">About redBus</div>
+						<div class="bottonMargin20">About Us</div>
+						<div class="bottonMargin20">Contact Us</div>
+						<div class="bottonMargin20">Mobile Version</div>
+						<div class="bottonMargin20">redBus on Mobile</div>
+						<div class="bottonMargin20">Sitemap</div>
+						<div class="bottonMargin20">Offers</div>
+						<div class="bottonMargin20">Careers</div>
+						<div class="bottonMargin20">Values</div>
 					</div>
-					<div>
-						<div>Info</div>
-						<div>T & C</div>
-						<div>Privacy Policy</div>
-						<div>FAQ</div>
-						<div>Blog</div>
-						<div>Bus Operator Registration</div>
-						<div>Agent Registration</div>
-						<div>Insurance Partner</div>
-						<div>User Agreement</div>
+					<div class="footerColor widthFooter">
+						<div class="weight700 footerFirstText">Info</div>
+						<div class="bottonMargin20">T & C</div>
+						<div class="bottonMargin20">Privacy Policy</div>
+						<div class="bottonMargin20">FAQ</div>
+						<div class="bottonMargin20">Blog</div>
+						<div class="bottonMargin20">Bus Operator Registration</div>
+						<div class="bottonMargin20">Agent Registration</div>
+						<div class="bottonMargin20">Insurance Partner</div>
+						<div class="bottonMargin20">User Agreement</div>
 					</div>
-					<div>
-						<div>Global Sites</div>
-						<div>India</div>
-						<div>Singapore</div>
-						<div>Malaysia</div>
-						<div>Indonesia</div>
-						<div>Peru</div>
-						<div>Colombia</div>
+					<div class="footerColor widthFooter">
+						<div class="weight700 footerFirstText">Global Sites</div>
+						<div class="bottonMargin20">India</div>
+						<div class="bottonMargin20">Singapore</div>
+						<div class="bottonMargin20">Malaysia</div>
+						<div class="bottonMargin20">Indonesia</div>
+						<div class="bottonMargin20">Peru</div>
+						<div class="bottonMargin20">Colombia</div>
 					</div>
-					<div>
-						<div>Our Partners</div>
-						<div>Goibibo</div>
-						<div>Makemytrip</div>
-						<div>Other Services</div>
-						<div>Train Tickets</div>
-						<div>Bus Hire</div>
-						<div>Cab Booking</div>
-						<div>Tempo Traveller</div>
+					<div class="footerColor widthFooter">
+						<div class="weight700 footerFirstText ">Our Partners</div>
+						<div class="bottonMargin20">Goibibo</div>
+						<div class="bottonMargin20">Makemytrip</div>
+						<div class="weight700 footerFirstText topMargin20">Other Services</div>
+						<div class="bottonMargin20">Train Tickets</div>
+						<div class="bottonMargin20">Bus Hire</div>
+						<div class="bottonMargin20">Cab Booking</div>
+						<div class="bottonMargin20">Tempo Traveller</div>
 					</div>
-					<div>
-						<div><img src="assets/r_logo.png"</div>
-						<div>redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</div>
+					<div class="footerColor widthFooter335">
+						<div class="bottonMargin20"><img src="assets/r_logo.png"</div>
+						<div class="lineHeightFooter">redBus is the world's largest <span class="weight800 spanColor">online bus ticket booking</span> service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</div>
 						<div class="dFlex">
-						<img src="assets/fb.png" alt="fb">
-						<img src="assets/twitter.png" alt="twitter">
-						<div>Ⓒ 2023 ibibogroup All rights reserved</div>
+							<img src="assets/fb.png" alt="fb">
+							<img src="assets/twitter.png" alt="twitter">
+						</div>
+						<div class="bottonMargin20">
+							<span class="cSpan spanColor">C</span> 2023 ibibogroup All rights reserved
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</body>
+	<script src="js/script.js"></script>
 </html>

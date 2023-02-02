@@ -28,6 +28,9 @@
 .justifyBetween{
     justify-content: space-between;
 }
+.justifyAround{
+    justify-content: space-around;
+}
 .outlineNone{
     outline: none;
 }
@@ -71,6 +74,10 @@
     line-height: 0;
     letter-spacing: .2px;
 }
+.mediumLarge{
+    font-size: 15.4px;
+    color: #444343;
+}
 .large{
     font-size: 19px;
 }
@@ -78,12 +85,19 @@
     font-size: 30px;
     line-height: 33px;
 }
+.XLlarge{
+    font-size: 46px;
+    color: #da4e52;
+}
 /* font weight */
 .weight700{
     font-weight: 700;
 }
 .weight600{
     font-weight: 600;
+}
+.weight800{
+    font-weight: 800;
 }
 .weight900{
     font-weight: 900;
@@ -292,6 +306,9 @@
 .topMargin20{
     margin-top: 20;
 }
+.bottonMargin20{
+    margin-bottom: 20;
+}
 .section2{
     background-color: #ededed;
 }
@@ -322,15 +339,120 @@
 .topMargin38{
     margin-top: 38px;
 }
-.topPaddding31{
-    padding-top: 31px;
-}
 #awards{
     margin: 0px 0px 123px 0px;
 }
 .widthAward{
     width: 400px;
+    padding-bottom: 41px;
+}
+.paddingIMgDiv{
+    padding-top: 41px;
 }
 .footer{
     background-color: #1b2330;
 }
+.global{
+    width: 400px;
+}
+.s3{
+    margin: 20px 0px;
+}
+ul{
+    list-style: none;
+    padding: 0px 50px 0px 145px;
+}
+ul li{
+    float: left;
+    padding: 1px 10px 1px 5px;
+    border-right: 1px solid #999;
+    margin-bottom: 12px;
+}
+.s4{
+    padding: 0px 50px 0px 145px;
+}
+.topPaddding31{
+    padding-top: 31px;
+}
+.footer{
+    clear: both;
+}
+.footerColor div{
+    color: #d7d7d7;
+}
+.widthFooter{
+    width:200px
+}
+.widthFooter335{
+    width:335px
+}
+.footerColor .footerFirstText{
+    color: #797979;
+}
+.lineHeightFooter{
+    line-height: 27px;
+}
+.spanColor{
+    color: #d7d7d7;
+}
+.cSpan{
+    border: 1px solid #d7d7d7;
+    border-radius: 20px;
+    padding: 0px 3px;
+    font-size: 12px;
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 150px;
+    margin-left: -5px;
+    border-width: px;
+    border-style: solid;
+    border-color: transparent transparent #555  transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
