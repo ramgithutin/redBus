@@ -164,48 +164,48 @@
 			</div>
 			<div class="section2">
 				<div class=" dFlex justifyCenter">
-					<img src="assets/promise.png" alt="promise.png">
+					<img src="assets/promise.png" alt="promise.png" class="promise">
 				</div>
 				<div class="dFlex justifyCenter extraLarge weight600">WE PROMISE TO DELIVER</div>
-				<div class="dFlex justifyCenter">
-					<div class="whiteBackground">
-						<div class="dFlex justifyCenter">
-							<img src="assets/benefits.png" alt="image">
+				<div class="dFlex justifyCenter topMargin20">
+					<div class="whiteBackground wd borderShadow">
+						<div class="dFlex justifyCenter divCont">
+							<img src="assets/benefits.png" alt="image" class="imgCont">
 						</div>
-						<div class="dFlex justifyCenter">UNMATCHED BENEFITS</div>
-						<div class="dFlex justifyCenter titleBlock">We take care of your travel beyond ticketing by providing you with innovative and unique benefits.</div>
+						<div class="dFlex justifyCenter section2Text">UNMATCHED BENEFITS</div>
+						<div class="dFlex justifyCenter titleBlock textCenter">We take care of your travel beyond ticketing by providing you with innovative and unique benefits.</div>
 					</div>
-					<div class="whiteBackground">
-						<div class="dFlex justifyCenter">
-							<img src="assets/customer_care.png" alt="image">
+					<div class="whiteBackground wd borderShadow">
+						<div class="dFlex justifyCenter divCont">
+							<img src="assets/customer_care.png" alt="image" class="imgCont">
 						</div>
-						<div class="dFlex justifyCenter">SUPERIOR CUSTOMER SERVICE</div>
-						<div class="dFlex justifyCenter titleBlock">We put our experience and relationships to good use and are available to solve your travel issues.</div>
+						<div class="dFlex justifyCenter section2Text">SUPERIOR CUSTOMER SERVICE</div>
+						<div class="dFlex justifyCenter titleBlock textCenter">We put our experience and relationships to good use and are available to solve your travel issues.</div>
 					</div>
-					<div class="whiteBackground">
-						<div class="dFlex justifyCenter">
-							<img src="assets/lowest_Fare.png" alt="image">
+					<div class="whiteBackground wd borderShadow">
+						<div class="dFlex justifyCenter divCont">
+							<img src="assets/lowest_Fare.png" alt="image" class="imgCont">
 						</div>
-						<div class="dFlex justifyCenter">LOWEST PRICES</div>
-						<div class="dFlex justifyCenter titleBlock">We always give you the lowest price with the best partner offers.</div>
+						<div class="dFlex justifyCenter section2Text">LOWEST PRICES</div>
+						<div class="dFlex justifyCenter titleBlock textCenter">We always give you the lowest price with the best partner offers.</div>
 					</div>
 				</div>
-				<div class="whiteBackground">
-					<div class="dFlex justifyCenter extraLarge weight600">AWARDS & RECOGNITION</div>
+				<div class="whiteBackground borderShadow topMargin38 topPaddding31">
+					<div class="dFlex justifyCenter extraLarge weight600" id="awards">AWARDS & RECOGNITION</div>
 					<div class="dFlex justifyCenter">
-						<div>
+						<div class="widthAward">
 							<div class="dFlex justifyCenter">
 								<img src="assets/Business_Standard1.png">
 							</div>
 							<div class="dFlex justifyCenter">Most Innovative Company</div>
 						</div>
-						<div>
+						<div class="widthAward">
 							<div class="dFlex justifyCenter">
 								<img src="assets/Brand_Trust_Report.png">
 							</div>
 							<div class="dFlex justifyCenter">Most Trusted Brand</div>
 						</div>
-						<div>
+						<div class="widthAward">
 							<div class="dFlex justifyCenter">
 								<img src="assets/Eye_for_Travel1.png">
 							</div>
@@ -363,7 +363,61 @@
 						<li>Yamani Travels</li> 
 						<li>Arthi Travels</li> 
 					</ul>
-			</div>	
+				</div>
+			</div>
+			<div class="footer">
+				<div class="dFlex">
+					<div>
+						<div>About redBus</div>
+						<div>About Us</div>
+						<div>Contact Us</div>
+						<div>Mobile Version</div>
+						<div>redBus on Mobile</div>
+						<div>Sitemap</div>
+						<div>Offers</div>
+						<div>Careers</div>
+						<div>Values</div>
+					</div>
+					<div>
+						<div>Info</div>
+						<div>T & C</div>
+						<div>Privacy Policy</div>
+						<div>FAQ</div>
+						<div>Blog</div>
+						<div>Bus Operator Registration</div>
+						<div>Agent Registration</div>
+						<div>Insurance Partner</div>
+						<div>User Agreement</div>
+					</div>
+					<div>
+						<div>Global Sites</div>
+						<div>India</div>
+						<div>Singapore</div>
+						<div>Malaysia</div>
+						<div>Indonesia</div>
+						<div>Peru</div>
+						<div>Colombia</div>
+					</div>
+					<div>
+						<div>Our Partners</div>
+						<div>Goibibo</div>
+						<div>Makemytrip</div>
+						<div>Other Services</div>
+						<div>Train Tickets</div>
+						<div>Bus Hire</div>
+						<div>Cab Booking</div>
+						<div>Tempo Traveller</div>
+					</div>
+					<div>
+						<div><img src="assets/r_logo.png"</div>
+						<div>redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</div>
+						<div class="dFlex">
+						<img src="assets/fb.png" alt="fb">
+						<img src="assets/twitter.png" alt="twitter">
+						<div>Ⓒ 2023 ibibogroup All rights reserved</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

@@ -289,10 +289,48 @@
 .topMargin10{
     margin-top: 10;
 }
+.topMargin20{
+    margin-top: 20;
+}
 .section2{
     background-color: #ededed;
 }
 .titleBlock{
+    margin: 0px 15px;
+    padding: 0px 20px 84px 20px;
+}
+.promise{
+    height: 100;
+    margin: 16px 0px 13px 0px;
+}
+.wd{
+    width: 420px;
+}
+.borderShadow{
+    box-shadow: 0 0 1.2px #686868;
+}
+.imgCont {
+    height: 90px;
+}
+.divCont{
+    margin: 40px 0px 51px 0px;
+}
+.section2Text{
     letter-spacing: 1px;
-    word-spacing: 8px;
+    margin-bottom: 50px;
+}
+.topMargin38{
+    margin-top: 38px;
+}
+.topPaddding31{
+    padding-top: 31px;
+}
+#awards{
+    margin: 0px 0px 123px 0px;
+}
+.widthAward{
+    width: 400px;
+}
+.footer{
+    background-color: #1b2330;
 }
