@@ -81,6 +81,9 @@
 .large{
     font-size: 19px;
 }
+.xlarge{
+    font-size: 26px;
+}
 .extraLarge{
     font-size: 30px;
     line-height: 33px;
@@ -188,6 +191,9 @@
 }
 #search{
     width: 144px;
+}
+#search:hover{
+    background-color: #e9555d;
 }
 #dateDiv{
     width: 169px;
@@ -413,46 +419,56 @@ ul li{
   
   /* The actual popup */
   .popup .popuptext {
-    visibility: hidden;
+    box-shadow: 0 1px 5px #000;
+    display: none;
     width: 160px;
-    background-color: #555;
-    color: #fff;
+    background-color: #ffffff;
+    color: #4a4a4a;
     text-align: center;
-    border-radius: 6px;
     padding: 8px 0;
     position: absolute;
     z-index: 1;
     top: 125%;
-    left: 50%;
-    margin-left: -80px;
+    right: -39px;
   }
   
   /* Popup arrow */
-  .popup .popuptext::after {
+.popup .popuptext::after {
     content: "";
     position: absolute;
-    bottom: 100%;
-    left: 150px;
-    margin-left: -5px;
-    border-width: px;
+    bottom: 101%;
+    left: 95px;
+    margin-left: -4px;
+    border-width: 10px;
     border-style: solid;
-    border-color: transparent transparent #555  transparent;
+    border-color: transparent transparent #ffffff transparent;
   }
   
   /* Toggle this class - hide and show the popup */
-  .popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-  }
-  
+.popup .show {
+    display: block;
+}
+
+.signinText{
+    color:#d84e55;
+    line-height: 1.2;
+}
+#nameError,
+#emailError,
+#userError,
+#passwordError,
+#confirmError{
+    color: red;
+    margin: 0px 0px 0px 18px;
+    display: none;
+}
   /* Add animation (fade in the popup) */
-  @-webkit-keyframes fadeIn {
+@-webkit-keyframes fadeIn {
     from {opacity: 0;} 
     to {opacity: 1;}
-  }
-  
-  @keyframes fadeIn {
+}
+
+@keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
-  }
+}

@@ -4,6 +4,7 @@
 		<title>Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India</title>
 		<link rel="shortcut icon" href="assets/redBus_logo_red.png">
 		<link rel="stylesheet" href="assets/css2.css">
+		<link rel="stylesheet" href="assets/modal.css">
 	</head>
 	<body>
 		<div class="headerRow redBackground fixed">
@@ -24,7 +25,7 @@
 					</div>
 					<div class="paddingarrow popup" onclick="myFunction()">
 						<img src="assets/profile.png" alt="down arrow" class="profile cursor">
-						<span class="popuptext" id="myPopup">A Simple Popup!</span>
+						<span class="popuptext weight700" id="myPopup" onclick="document.getElementById('id01').style.display='block'">Sign In/Sign Up</span>
 					</div>
 					<div class="paddingarrow">
 						<img src="assets/arrow.png" alt="down arrow" class="arrow cursor">
@@ -32,8 +33,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="positionRelative">
-			<div class="mainBody alignCenter justifyCenter dFlex" class="positionRelative searchSection">
+		<div id="id01" class="w3-modal">
+			<div class="w3-modal-content">
+			<cfinclude  template="signin.cfm">
+			</div>
+		</div> 
+		<div class="positionRelative" id="mainObject">
+			<div class="mainBody alignCenter justifyCenter dFlex"  class="positionRelative searchSection">
 				<form class="dFlex mainSearchBar">
 					<div class="textDiv whiteBackground dFlex alignCenter positionRelative">
 						<img src="assets/city.png" alt="city" class="cityIcon">
@@ -54,7 +60,7 @@
 						<input type="text" name="dateBox" class="textBox dFlex outlineNone inputPadding borderNone" id="dateInput">
 					</div>
 					<div class="redBackground dFlex ">
-						<button type="submit" name="fromBox" class="redBackground outlineNone borderNone weight900 white" id="search">Search Buses</button>
+						<button type="submit" name="fromBox" class="redBackground outlineNone borderNone weight900 white cursor" id="search">Search Buses</button>
 					</div>
 				</form>
 			</div>
