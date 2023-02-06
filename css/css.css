@@ -448,7 +448,15 @@ ul li{
 .popup .show {
     display: block;
 }
-
+.textInput{
+    border:none;
+    border-bottom: 1px solid;
+    margin: 11;
+}
+.login{
+    width: 170px;
+    padding: 3px;
+}
 .signinText{
     color:#d84e55;
     line-height: 1.2;
@@ -471,4 +479,20 @@ ul li{
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+.login{
+    width: 170px;
+    color: red;
+}
+.login:hover{
+    background-color: #e9555d;
+    color: #ffffff;
+}
+.formPadding{
+    padding: 50px
+    ;
+}
+.error{
+    border: 1px solid red;
+    border-style: none none solid none;
 }

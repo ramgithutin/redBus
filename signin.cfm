@@ -18,26 +18,37 @@
                     <div class="dFlex alignCenter justifyCenter">
                         <div>
                             <form method="post" name="formLogin" onsubmit="return loginValidate()">
-                                <div class="dflex alignCenter justifyCenter">
+                                <div class="dflex alignCenter justifyCenter topMargin38">
                                     <div>
                                         <input type="text" placeholder="  Username" class="textInput" name="loginUserId" id="loginUserId"><br>
                                         <div id="userError" class="small">this field is required</div>
                                     </div>
                                 </div>
-                                <div class="dflex alignCenter justifyCenter">
+                                <div class="dflex alignCenter justifyCenter topMargin38">
                                     <div>
                                         <input type="password" placeholder="Password" class="textInput" name="loginPassword" id="loginPassword"><br>
                                         <div id="passwordError" class="small">this field is required</div>
                                     </div>
                                 </div>
-                                <div class="dflex alignCenter justifyCenter">
-                                    <input type="submit" name="login" value="LOGIN" class="redBackground outlineNone borderNone weight900 white cursor">
+                                <div class="dflex alignCenter justifyCenter topMargin38">
+                                    <input type="submit" name="login" value="LOGIN" id="login" class="redBackground outlineNone borderNone weight900 white cursor">
                                 </div>
                             </form>
+                            <cfif structKeyExists(form,'login')>
+                                <cfinvoke method="loginform" component="components/component" returnVariable="message">
+                                <div class="small red dflex justifyCenter topMargin38">#message#</div>
+                            </cfif>
+                            <div class="dflex alignCenter justifyCenter small topMargin38">Or Sign In Using</div>
+                            <div class="dflex alignCenter justifyCenter topMargin38">
+                                <img src="assets/facebook.png" alt="book" class="profile">
+                                <img src="assets/google.png" alt="book" class="profile">
+                            </div>
+                            <div class="dflex alignCenter justifyCenter  small topMargin38">Don't have an account? <a href="signup.cfm">Register Here</a></div>
                         </div>
                     </div>
                 </div>
             </div>
-    </cfoutput>
-</body>
+        </cfoutput>
+    </body>
+    <script src="js/login.js"></script>
 </html>
