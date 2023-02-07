@@ -35,7 +35,7 @@
 		</div>
 		<div id="id01" class="w3-modal">
 			<div class="w3-modal-content">
-			<cfinclude  template="signin.cfm">
+				<cfinclude  template="signin.cfm">
 			</div>
 		</div> 
 		<div class="positionRelative" id="mainObject">
@@ -55,8 +55,18 @@
                     </div>
                     <div class="dflex alignCenter justifyCenter">
                         <div>
-                            <input type="text" placeholder="  Username" class="textInput inputPadding outlineNone" name="userName" id="userName" onblur="signUpValidate()"><br>
+                            <input type="text" placeholder="Username" class="textInput inputPadding outlineNone " name="userName" id="userName" onblur="signUpValidate()"><br>
                             <div id="userError" class="small">this field is required</div>
+                        </div>
+                    </div>
+                    <div class="dflex alignCenter">
+                        <div>
+							<select class="textInput inputPadding outlineNone " name="userRole" id="userRole" onblur="signUpValidate()">
+								<option selected=""></option>
+								<option value="admin">Admin</option>
+								<option value="user">User</option>
+							</select>
+                            <div id="userRoleError" class="small">this field is required</div>
                         </div>
                     </div>
                     <div class="dflex alignCenter justifyCenter">
@@ -75,6 +85,9 @@
                         <input type="submit" name="register" value="REGISTER" class="outlineNone borderNone login">
                     </div>
                 </form>
+				<cfif structKeyExists(form,'register')>
+					<cfinvoke method="postValue" component="component/register">
+				</cfif>
 			</div>
         </div>
     </body>

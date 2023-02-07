@@ -465,7 +465,8 @@ ul li{
 #emailError,
 #userError,
 #passwordError,
-#confirmError{
+#confirmError,
+#userRoleError{
     color: red;
     margin: 0px 0px 0px 18px;
     display: none;
@@ -489,10 +490,17 @@ ul li{
     color: #ffffff;
 }
 .formPadding{
-    padding: 50px
-    ;
+    padding: 40px;
 }
 .error{
     border: 1px solid red;
     border-style: none none solid none;
+}
+.adminButton{
+    width: 160px;
+    border-color: rgb(210, 210, 210);
+    color: #4a4a4a;
+    border: 1px solid #d2d2d2;
+    margin: 15px;
+    padding: 4px;
 }
