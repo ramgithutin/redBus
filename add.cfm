@@ -17,7 +17,7 @@
                 <div class="large signinText weight700">Sign in to avail exciting discounts and cashbacks!!</div>
                     <div class="dFlex alignCenter justifyCenter ddf">
                         <div>
-                            <form method="post" name="formLogin" onsubmit="return loginValidate()">
+                            <form method="post" name="formLogin">
                                 <div class="dflex alignCenter justifyCenter topMargin38">
                                     <div>
                                         <div class="medium">Name of Bus</div>
@@ -42,14 +42,17 @@
                                     </div>
                                 </div>
                                 <div class="dflex alignCenter justifyCenter topMargin38">
-                                    <input type="submit" name="login" value="LOGIN" id="login" class="redBackground outlineNone borderNone weight900 white cursor">
+                                    <input type="submit" name="addBus" value="ADDBUS" id="addBus" class="redBackground outlineNone borderNone weight900 white cursor">
                                 </div>
                             </form>
+                            <cfif structKeyExists(form,'addBus')>
+                                <cfinvoke method="busName" component="component/busname">
+                            </cfif>
                         </div>
                     </div>
                 </div>
             </div>
         </cfoutput>
     </body>
-    <script src="js/login.js"></script>
+    <script src="js/addBus.js"></script>
 </html>

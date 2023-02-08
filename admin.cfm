@@ -46,12 +46,10 @@
             </div> 
             <div id="id03" class="w3-modal">
                 <div class="w3-modal-content">
-                    <cfinclude  template="add.cfm">
                 </div>
             </div> 
             <div id="id04" class="w3-modal">
                 <div class="w3-modal-content">
-                    <cfinclude  template="add.cfm">
                 </div>
             </div> 
         </div>

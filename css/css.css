@@ -199,7 +199,7 @@
     width: 169px;
 }
 #dateInput{
-    display: contents;
+    width: 138px;
 }
 #from, 
 #to ,
@@ -503,4 +503,11 @@ ul li{
     border: 1px solid #d2d2d2;
     margin: 15px;
     padding: 4px;
+}
+#dateHidden{
+    width: 17px;
+    background: transparent;
+}
+.up{
+    top:0;
 }
