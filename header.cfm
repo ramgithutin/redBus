@@ -45,18 +45,18 @@
 						<img src="assets/city.png" alt="city" class="cityIcon">
 						<label for="from" class="small positionAbsolute" id="from">FROM</label>
 						<input type="text" name="fromBox" class="textBox outlineNone borderNone inputPadding" onblur="fromFunction()" onclick="from()" id="fromBox">
-						<img src="assets/shifting.png" alt="shift" class="positionAbsolute cityIcon shitfImage">
+						<img src="assets/shifting.png" alt="shift" class="positionAbsolute cityIcon shitfImage" id="shitf" onclick="shitfFunction()">
 					</div>
 					<div class="textDiv whiteBackground dFlex alignCenter toInput positionRelative">
 						<div class="dFlex alignCenter">
 							<img src="assets/city.png" alt="city" class="cityIcon">
 							<label for="to" class="small positionAbsolute" id="to">TO</label>
-							<input type="text" name="toBox" class="textBox outlineNone borderNone inputPadding" onblur="toFunction()" onclick="to()">
+							<input type="text" name="toBox" class="textBox outlineNone borderNone inputPadding" onblur="toFunction()" onclick="to()" id="toBox">
 						</div>
 					</div>
 					<div class="textDiv whiteBackground dFlex alignCenter positionRelative" id="dateDiv">
 						<img src="assets/calender.png" alt="date" class="calender">
-						<input type="date" name="dateHidden" class="textBox dFlex outlineNone inputPadding borderNone positionAbsolute" id="dateHidden" onblur="datePicker()">
+						<input type="date" name="dateHidden" class="textBox dFlex outlineNone inputPadding borderNone positionAbsolute" id="dateHidden" onchange="datePicker();dateFunction()">
 						<label for="date" class="small positionAbsolute" id="date">DATE</label>
 						<input type="text" name="dateBox" class=" dFlex outlineNone inputPadding borderNone" readonly="readonly" id="dateInput">
 					</div>
