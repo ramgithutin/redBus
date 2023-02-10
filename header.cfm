@@ -61,9 +61,12 @@
 						<input type="text" name="dateBox" class=" dFlex outlineNone inputPadding borderNone" readonly="readonly" id="dateInput">
 					</div>
 					<div class="redBackground dFlex ">
-						<button type="submit" name="fromBox" class="redBackground outlineNone borderNone weight900 white cursor" id="search">Search Buses</button>
+						<button type="submit" name="searchBox" class="redBackground outlineNone borderNone weight900 white cursor" id="search">Search Buses</button>
 					</div>
 				</form>
+				<cfif structKeyExists(form, 'searchBox')>
+					<cfinvoke  method="search" component="component/serach">
+				</cfif>
 			</div>
 			<div class="grayBackground">
 				<div class="restPart grayBackground dFlex  justifyCenter">
